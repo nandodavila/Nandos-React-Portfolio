@@ -11,3 +11,10 @@
     font-size: 3rem;
   }
   
+  .header h2 {
+    margin: 0;
+    padding-top: 0px;
+    text-align: center;
+    color: #5eb1bf;
+    font-size: 1.5rem;
+  }

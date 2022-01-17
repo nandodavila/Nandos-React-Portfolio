@@ -2,20 +2,42 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <div className='container-md'>
       <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+        <div class="row align-items-start best-work-div">
+          <h3 id="myWork" class="col-2">My Best Work</h3>
+            <section class="codeRefractor col-8 best-work">
+              <h4>Not So Subtle Santa!<div><a href="https://github.com/nandodavila/Wish-List">Repo</a></div></h4>
+                <a href="https://wish-list-fscg.herokuapp.com/">
+                  <img src="./assets/images/NotSoSubtleSanta1.PNG" alt="code-refractor" class="img-fluid" />
+                </a>
+            </section>
+        </div>
+
+        <div class="row align-items-start more-work"> 
+          <h3 id='moreWork'>Other Projects</h3>    
+            <section class="work offset-md-2 col-md-3">
+              <h4>Work Day Scheduler<div><a href="https://github.com/nandodavila/Work-Day-Scheduler">Repo</a></div></h4>
+                <a href="https://nandodavila.github.io/Work-Day-Scheduler/">
+                  <img src="./assets/images/WorkDayScheduler.PNG" alt="exImg" class="img-fluid rounded"/>
+                </a>
+            </section>
+
+            <section class="work offset-md-2 col-md-3">
+              <h4>Weekly Meal Planner<div><a href="https://github.com/nandodavila/Weekly-Meal-Planners">Repo</a></div></h4>
+              <a href="https://nandodavila.github.io/Weekly-Meal-Planners/">
+                <img src="./assets/images/DragAndDrop!.PNG" alt="exImg" class="img-fluid rounded"/>
+              </a>
+            </section>
+
+            <section class="work offset-md-2 col-md-3">
+              <h4>Tech Blog<div><a href="https://github.com/nandodavila/Tech-Blog">Repo</a></div></h4>
+              <a href="https://limitless-reef-64896.herokuapp.com/">
+                <img src="./assets/images/TechBlog.PNG" alt="exImg" class="img-fluid rounded"/>
+              </a>
+            </section>
+        </div>
+
     </div>
   );
 }
