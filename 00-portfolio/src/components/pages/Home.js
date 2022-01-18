@@ -9,7 +9,7 @@ export default function Home() {
             <section class="codeRefractor col-8 best-work">
               <h4>Not So Subtle Santa!<div><a href="https://github.com/nandodavila/Wish-List">Repo</a></div></h4>
                 <a href="https://wish-list-fscg.herokuapp.com/">
-                  <img src="./assets/images/NotSoSubtleSanta1.PNG" alt="code-refractor" class="img-fluid" />
+                  <img src="./images/NotSoSubtleSanta1.PNG" alt="not-so-subtle-santa" className="img-fluid" />
                 </a>
             </section>
         </div>
