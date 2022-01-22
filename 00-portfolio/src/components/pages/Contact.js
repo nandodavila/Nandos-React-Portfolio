@@ -9,12 +9,10 @@ export default function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, Name, and message
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'name') {
@@ -25,15 +23,11 @@ export default function Contact() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
-    // First we check to see if the email is not valid or if the Name is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
+
     }
     if (!checkMessage(message)) {
       setErrorMessage(
@@ -43,7 +37,6 @@ export default function Contact() {
     }
     alert(`Hello ${name}, you message has been sent!(Not really tho)`);
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
@@ -51,10 +44,11 @@ export default function Contact() {
 
 
   return (
-    <div>
+    <div className='container'>
       <p>Hello {name}</p>
       <form className="form">
       <input
+        className='form-control'
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -62,6 +56,7 @@ export default function Contact() {
           placeholder="name"
         />
         <input
+          className='form-control'
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -69,11 +64,13 @@ export default function Contact() {
           placeholder="email"
         />
         <input
+          className='form-control'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          rows="3"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
