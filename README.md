@@ -26,6 +26,7 @@
   email: nandodavila94@gmail.com
 
   ## Deployed App
+  https://nandodavila.github.io/Nandos-React-Portfolio/
 
   ## Example
   ![screenshot](/ReactPortfolio.PNG)
