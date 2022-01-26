@@ -1,0 +1,47 @@
+.contact-me{
+    text-align: center;
+}
+
+.contact-me p{
+    color: #454955;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.my-links {
+    background-color: #0d0a0b;
+    width: 100%;
+    border: ridge #5eb1bf 10px;
+    border-radius: 10px;
+}
+
+.my-links h3{
+    color: #5eb1bf;
+}
+
+.form-me{
+    border: ridge #5eb1bf 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: #5eb1bf; /* Green */
+    border: none;
+    color: #454955;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6bd3e6;
+}
