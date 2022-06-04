@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Nandos-React-Portfolio/static/css/main.83adde3f.css",
-    "main.js": "/Nandos-React-Portfolio/static/js/main.d941872a.js",
+    "main.js": "/Nandos-React-Portfolio/static/js/main.a36f0943.js",
     "static/media/DragAndDrop.PNG": "/Nandos-React-Portfolio/static/media/DragAndDrop.9da758b0c8d6002ee6a9.PNG",
     "static/media/NotSoSubtleSanta1.PNG": "/Nandos-React-Portfolio/static/media/NotSoSubtleSanta1.2f412fe09134f9860370.PNG",
     "static/media/TechBlog.PNG": "/Nandos-React-Portfolio/static/media/TechBlog.e98e73560f75683f2c52.PNG",
     "static/media/WorkDayScheduler.PNG": "/Nandos-React-Portfolio/static/media/WorkDayScheduler.827c9fbedbf7db9656fc.PNG",
     "index.html": "/Nandos-React-Portfolio/index.html",
     "main.83adde3f.css.map": "/Nandos-React-Portfolio/static/css/main.83adde3f.css.map",
-    "main.d941872a.js.map": "/Nandos-React-Portfolio/static/js/main.d941872a.js.map"
+    "main.a36f0943.js.map": "/Nandos-React-Portfolio/static/js/main.a36f0943.js.map"
   },
   "entrypoints": [
     "static/css/main.83adde3f.css",
-    "static/js/main.d941872a.js"
+    "static/js/main.a36f0943.js"
   ]
 }
