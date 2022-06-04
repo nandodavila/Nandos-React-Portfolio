@@ -16,6 +16,7 @@ export default function Resume() {
           <li>BootStrap</li>
           <li>JQuery</li>
           <li>Responsive Design</li>
+          <li>Angular.js</li>
         </ul>
         <h3>Back-End</h3>
         <ul>
@@ -24,6 +25,8 @@ export default function Resume() {
           <li>Express</li>
           <li>MySQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
+          <li>C#</li>
+          <li>.NET</li>
         </ul>
       </div>
     </div>
